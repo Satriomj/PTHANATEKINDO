@@ -36,6 +36,14 @@
                 </tr>
             @endforeach
         </tbody>
+        <tfoot>
+                <tr>
+                    <th>No</th>
+                    <th>Nama Pengguna</th>
+                    <th>Email</th>
+                    <th>Aksi</th>
+                </tr>
+        </tfoot>
     </table>
 </div>
 @endsection
