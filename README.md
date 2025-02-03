@@ -7,6 +7,21 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+## Project Details
+
+### 🛠Teknologi yang Digunakan
+- Menggunakan Laravel versi **10.48.27**
+- Menggunakan **Laravel UI --auth** untuk autentikasi.
+- Menggunakan **template AdminLTE** untuk tampilan.
+
+###  Progress Pengembangan
+- **Point soal no 4 bagian C** belum selesai. Saat ini masih mengalami kesulitan dalam membuat **perubahan menu secara dinamis** pada sidebar.
+- **Point soal no 6** mengenai pembuatan **REST API dengan Laravel Lumen** masih belum selesai karena kurang familiar dengan Lumen.  
+  **Pendekatan yang digunakan:**  
+  - Saat ini lebih memaksimalkan pengembangan dalam bentuk **monolith** terlebih dahulu sebelum beralih ke Lumen.
+
+---
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
