@@ -14,8 +14,8 @@
         <thead>
             <tr>
                 <th>No</th>
+                <th>Nama Pengguna</th>
                 <th>Email</th>
-                <th>Nama Lengkap</th>
                 <th>Aksi</th>
             </tr>
         </thead>
@@ -23,8 +23,8 @@
             @foreach($users as $key => $user)
                 <tr>
                     <td>{{ $key + 1 }}</td>
-                    <td>{{ $user->user_email }}</td>
                     <td>{{ $user->user_fullname }}</td>
+                    <td>{{ $user->user_email }}</td>
                     <td>
                         <a href="{{ route('users.edit', $user->user_id) }}" class="btn btn-warning btn-sm">Edit</a>            
                     <form action="{{ route('users.destroy', $user->user_id) }}" method="POST" class="d-inline" onsubmit="return confirm('Yakin ingin menghapus pengguna {{ $user->user_fullname }}?');"> 
